@@ -1,0 +1,81 @@
+{
+  "kind": "collectionType",
+  "collectionName": "portfolios",
+  "info": {
+    "singularName": "portfolio",
+    "pluralName": "portfolios",
+    "displayName": "Portfolio",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "company_name": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "event_date": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "cover_image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "link_video": {
+      "type": "string"
+    },
+    "service_category": {
+      "type": "customField",
+      "options": [
+        "Corporate",
+        "Government",
+        "BUMN",
+        "Communities",
+        "Private",
+        "Sports Competition",
+        "Music & Art",
+        "MICE",
+        "Team Building",
+        "Party & Gala",
+        "Product Launching",
+        "Brand Activation",
+        "Offline",
+        "Virtual",
+        "Hybrid",
+        "Live Streaming",
+        "Venue Selection & Booking",
+        "Athlete Management",
+        "Ticketing & Registration",
+        "Sponsorship & Partnership",
+        "Media Coverage",
+        "Guest & VIP Management",
+        "Travel & Accomodation Management",
+        "Event Technology Solution",
+        "Catering & Hospitality Services",
+        "Equipment & Logistic Rent",
+        "Live Score"
+      ],
+      "customField": "plugin::multi-select.multi-select"
+    },
+    "is_featured": {
+      "type": "boolean"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "landing_page_testimonis",
+  "info": {
+    "singularName": "landing-page-testimoni",
+    "pluralName": "landing-page-testimonis",
+    "displayName": "Landing Page - Testimoni"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

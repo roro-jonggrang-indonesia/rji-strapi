@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "landing_page_dipercaya_olehs",
+  "info": {
+    "singularName": "landing-page-dipercaya-oleh",
+    "pluralName": "landing-page-dipercaya-olehs",
+    "displayName": "Landing Page - Dipercaya Oleh"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

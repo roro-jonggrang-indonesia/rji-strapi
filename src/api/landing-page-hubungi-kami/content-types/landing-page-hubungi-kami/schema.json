@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "landing_page_hubungi_kamis",
+  "info": {
+    "singularName": "landing-page-hubungi-kami",
+    "pluralName": "landing-page-hubungi-kamis",
+    "displayName": "Landing Page - Hubungi Kami"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "tagline": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "email": {
+      "type": "string"
+    },
+    "phone_number": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "landing_page_artikels",
+  "info": {
+    "singularName": "landing-page-artikel",
+    "pluralName": "landing-page-artikels",
+    "displayName": "Landing Page - Artikel",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

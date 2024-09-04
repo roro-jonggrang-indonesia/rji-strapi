@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "landing_page_hero_sections",
+  "info": {
+    "singularName": "landing-page-hero-section",
+    "pluralName": "landing-page-hero-sections",
+    "displayName": "Landing Page - Hero Section",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tagline": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
