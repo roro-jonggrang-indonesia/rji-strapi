@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "about_us_team_members",
+  "info": {
+    "singularName": "about-us-team-member",
+    "pluralName": "about-us-team-members",
+    "displayName": "About Us - Team Member"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nama": {
+      "type": "string"
+    },
+    "occupation": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
